@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/** To remove all automatic padding and margins**/
 
 body{
     background-color: #92BCEA;
@@ -34,7 +35,7 @@ main{
     margin-bottom: 1em;
     font-family: 'Roboto', sans-serif;
     grid-area: main;
-    margin-left: 0.4em;
+    /**margin-left: 0.4em;**/
 }
 
 .paragraph1{

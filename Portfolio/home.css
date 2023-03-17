@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+/** To remove all automatic padding and margins**/
 
 /**.myHeader{
     margin-left: 17em;
