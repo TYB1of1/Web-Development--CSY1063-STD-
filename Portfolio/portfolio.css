@@ -20,11 +20,11 @@ body{
 }
 
 body{
-    background-color: #AFB3F7;
+    background-color: #92BCEA;
 }
 
 header{
-    background-color: #92BCEA;
+    background-color: #AFB3F7;
     padding: 0.6em;
     font-family: 'Bebas Neue', cursive;
     grid-area: header;
