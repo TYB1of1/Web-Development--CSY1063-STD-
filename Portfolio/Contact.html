@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:800px)">
     <title>Contact page</title>
 </head>
-<body>
-    <h1>Contact Me</h1>
-    
+
+<body id="clicked">
+    <header>
+        <h1>Contact Me</h1>
+        <a href="#" class="off hamburger"></a>
+        <a href="#clicked" class="on hamburger"></a>
+    </header>
+    <nav>
+        <ul>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\Home.html">Homepage
+                    page</a></li>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\portfolio.html ">Portfolio
+                    page</a></li>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\work experience.html">Work
+                    experience page</a></li>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\sitereport.html">Site
+                    report</a></li>
+            <a href="#clicked" class="on showNAV"></a>
+            <a href="#" class="off sho wNAV"></a>
+        </ul>
+    </nav>
+    <form action="#" method="GET" class="textarea">
+
+        <textarea name="mytextarea"></textarea>
+
+        <input type="submit" value="submit" name="submit">
+
+    </form>
+    <footer>
+        &copy; Theo Boakye
+    </footer>
 </body>
+
 </html>

@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="home.css">
-    <link rel ="stylesheet" href="mobile.css" media = "screen and (max-width:800px)">
-    <link rel ="stylesheet" href="desktop.css" media = "screen and(min width:800px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width:800px)">
 
 </head>
-<body>
-<header>
-    <h1 class="myHeader">Theo's Portfolio</h1>
-</header>
-<main>
-    <p>Hello weclome to my portfolio, here you'll be able to find a brief bio of myself on the Homepage, following from that you can check  out my portfolio with all my work, you can then go ahead  and find my contact details on the contacts page, followed by my work experience page where you can find any work experience i've had.</p> 
 
-    <p>My name is Theo, i am a 20 year old software engineer student looking to graduate from Univerity of Northampton and this is my portfolio.</p>
-</main>
-<nav>
-   <ul>
-      <li class="myNav"><a href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\portfolio.html ">Click here to go to the portfolio page</a></li>
-      <li class="myNav"><a href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\Contact.html">Click here to go to contacts page</a></li>
-      <li class="myNav"><a href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\work experience.html">Click here to go to work experience page</a></li>
-      <li class="myNav"><a href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\sitereport.html">Click here to go to site report</a></li>
-  </ul>
-</nav>
-<image>
-    <img class="resize" src="C:\Users\TheoB\OneDrive\Pictures\Saved Pictures\Bitmoji.jpg" alt=" An image of my Bitmoji"/>
-</image>
-<footer>
-    &copy; Theo Boakye
-</footer>
+<body id="clicked">
+    <header>
+        <h1 class="myHeader">Theo's Portfolio</h1>
+        <a href="#" class="off hamburger"></a>
+        <a href="#clicked" class="on hamburger"></a>
+    </header>
+
+    <main>
+        <p>Hello weclome to my portfolio, here you'll be able to find a brief bio of myself on the Homepage, following
+            from that you can check out my portfolio with all my work, you can then go ahead and find my contact details
+            on the contacts page, followed by my work experience page where you can find any work experience i've had.
+        </p>
+
+        <p>My name is Theo, i am a 20 year old software engineer student looking to graduate from Univerity of
+            Northampton and this is my portfolio.</p>
+    </main>
+    <nav>
+        <ul>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\portfolio.html ">Portfolio
+                    page</a></li>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\Contact.html">Contacts
+                    page</a></li>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\work experience.html">Work
+                    experience page</a></li>
+            <li class="myNav"><a
+                    href="C:\Users\TheoB\OneDrive\Desktop\Web Development (CSY1063-STD)\Portfolio\sitereport.html">Site
+                    report</a></li>
+            <a href="#clicked" class="on showNAV"></a>
+            <a href="#" class="off showNAV"></a>
+        </ul>
+    </nav>
+    <image>
+        <img class="resize" src="C:\Users\TheoB\OneDrive\Pictures\Saved Pictures\Bitmoji.jpg"
+            alt="Profile picture of Theo Boakye" />
+    </image>
+    <footer>
+        &copy; Theo Boakye
+    </footer>
 </body>
+
 </html>

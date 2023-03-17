@@ -5,15 +5,15 @@
     padding: 0;
 }
 
-.myHeader{
+/**.myHeader{
     margin-left: 17em;
     margin-bottom: 0.3em;
     margin-top: 0.3em;
-}
+}**/
 
-.myNav{
+/**.myNav{
     margin: 0.3em;
-}
+}**/
 
 header{
     font-family: 'Bebas Neue', cursive;
@@ -29,7 +29,8 @@ body{
     grid-template-rows: auto;
     grid-template-areas: 
     "header header header header header"
-    "image main main main nav"
+    "nav nav nav nav nav"
+    "image main main main main"
     "footer footer footer footer footer"
     ;
 
@@ -54,14 +55,24 @@ nav{
 footer{
     background-color: yellow;
     grid-area: footer;
-     
 }
 
-.resize{
+/**.resize{
     width: 15em;
     height: 15em;
-}
+}**/
 
 img{
     grid-area: image;
 }
+
+/**.myNav:hover{
+    background-color: #028090
+    ;
+}**/
+
+/**.myNav{
+    font-weight: bold;
+}**/
+
+

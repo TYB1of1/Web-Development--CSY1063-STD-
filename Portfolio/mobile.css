@@ -6,14 +6,109 @@
 }
 
 body{
-    background-color: #92BCEA;
     display: grid;
+    background-color: #92BCEA;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: 
     "header"
+    "image"
     "nav"
+    "main"
     "aside"
     "footer";
 }
 
+.myHeader{
+    margin-left: 3em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+.myNav{
+    margin: 1em;
+    font-weight: bold;
+}
+
+header{
+    font-family: 'Bebas Neue', cursive;
+    grid-area: header;
+    background-color: #AFB3F7;
+
+}
+
+/**main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    grid-area: main;
+    margin-right: 2em;
+}**/
+
+nav{
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    grid-area: nav;
+    margin-right: 0.3em;
+    background-color: #7A93AC;
+}
+
+/**footer{
+    background-color: yellow;
+    grid-area: footer;
+}**/
+
+.resize{
+    width: 23.4em;
+    height: 15em;
+}
+
+/**img{
+    grid-area: image;
+}**/
+
+.hamburger{
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+}
+
+.hamburger::before{
+    content: "";
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-top: 0.2em solid black;
+}
+
+nav{
+    display: block;
+    background-color: yellow;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+#clicked .on{
+    display: block;
+}
+#clicked .off{
+    display: none;
+}
+#clicked:target .on{
+    display: none;
+}
+#clicked:target .off{
+    display: block;
+}
+#clicked:target nav{
+    display: none;
+}
+
+.textarea{
+    margin-right: 1em;
+}
