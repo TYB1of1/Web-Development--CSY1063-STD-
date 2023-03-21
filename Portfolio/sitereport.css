@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/** To remove all automatic padding and margins**/
+
+body{
+    background-color: #92BCEA;
+    display: grid;
+    grid-template-columns: 20% 5% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "image main main main main"
+    "footer footer footer footer footer"
+    ;
+
+}
+
+header{
+    font-family: 'Bebas Neue', cursive;
+    grid-area: header;
+    background-color: #AFB3F7;
+}
+
+body{
+    background-color: #92BCEA;
+}
+
+nav{
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    grid-area: nav;
+    margin-right: 0.3em;
+    background-color: #7A93AC;
+}
+
+.myNav{
+    margin: 0.3em;
+}
+
+.myNav:hover{
+    background-color: #028090;
+}
+
+.myNav{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: yellow;
+    grid-area: footer;
+}
+
