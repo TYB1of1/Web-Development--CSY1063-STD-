@@ -6,16 +6,18 @@
 }
 /** To remove all automatic padding and margins**/
 
+
 body{
     background-color: #92BCEA;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 5% 25% 25% 25%;
     grid-template-rows: auto;
     grid-template-areas: 
-    "header header header header"
-    "nav nav nav nav"
-    "main main main main"
-    "footer footer footer footer "
+    "header header header header header"
+    "nav nav nav nav nav"
+    "image main main main main"
+    "image main main main main"
+    "footer footer footer footer footer"
     ;
 
 }
@@ -60,13 +62,4 @@ nav{
 footer{
     background-color: yellow;
     grid-area: footer;
-}
-
-.WEH{
-    margin-left: 13em;
-    margin-bottom: 0.5em;
-}
-
-.Lloydsp{
-    margin-top: 0.5em;
 }
