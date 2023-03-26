@@ -6,22 +6,12 @@
 }
 /** To remove all automatic padding and margins**/
 
-.myHeader{
-    margin-left: 17em;
-    margin-bottom: 0.3em;
-    margin-top: 0.3em;
-}
-
-.myNav{
-    margin: 0.3em;
-}
-
-/**header{
+header{
     font-family: 'Bebas Neue', cursive;
     grid-area: header;
     background-color: #AFB3F7;
 
-}**/
+}
 
 body{
     background-color: #92BCEA;
@@ -45,68 +35,23 @@ main{
     margin-right: 2em;
 }
 
-/**nav{
+nav{
     margin-bottom: 1em;
     font-family: 'Roboto', sans-serif;
     grid-area: nav;
     margin-right: 0.3em;
     background-color: #7A93AC;
-}**/
+}
 
 footer{
     background-color: yellow;
     grid-area: footer;
 }
 
-
-.resize{
-    width: 15em;
-    height: 15em;
-}
-
 img{
     grid-area: image;
 }
 
-.myNav:hover{
-    background-color: #028090
-    ;
-}
-
-.myNav{
-    font-weight: bold;
-}
-
-nav ul {
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    text-align: center;
-}
-
-.Lloydsp{
-    margin-top: 0.5em;
-}
 
 
-.WEH{
-    margin-left: 13em;
-    margin-bottom: 0.5em;
-}
 
-/**nav ul ul {
-    position: absolute;
-    display: block;
-    background-color: green;
-    padding: 0;
-    width: 100%;
-    transform: translate(0, -100%);
-    z-index: -1;
-    transition: transform 0.5s ease-in;
-}
-
-nav > ul > li:hover ul {
-    transform: translate(0, 0);
-    z-index: 1;
-}**/ 
-/*craeting slide effect on nav*/
