@@ -8,3 +8,26 @@ body{
     "footer footer footer"
     ;
 }
+
+.circle{
+    width: 10em;
+    height: 10em;
+    background-color: aqua;
+    border-radius: 100%;
+    animation: move 15s infinite;
+}
+
+@keyframes move_the_circle {
+    0% {
+        transform: translate(0,0);
+    }
+
+    50% {
+        transform: translate(75vw, 75vh);
+    }
+
+    100%{
+        transform: translate(0,0);
+    }
+
+}
