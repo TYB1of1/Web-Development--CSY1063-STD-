@@ -15,6 +15,7 @@ body{
     "header header header header"
     "nav nav nav nav"
     "main main main main"
+    "image image image image"
     "footer footer footer footer "
     ;
 
@@ -62,3 +63,6 @@ footer{
     grid-area: footer;
 }
 
+img{
+    grid-area: image;
+}
